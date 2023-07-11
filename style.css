@@ -7,8 +7,13 @@
 .header-section {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
 
   background: lightgray 50% / cover no-repeat;
+}
+
+.logo-main span {
+  color: #e55473;
 }
 .header-li {
   display: flex;
@@ -19,9 +24,7 @@
   font-family: Lato;
   font-weight: 400;
 }
-.logo-img {
-  width: 120px;
-}
+
 .banner-h1 {
   font-size: 50px;
   font-weight: 900;
